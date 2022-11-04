@@ -1,7 +1,57 @@
 @import "global.css";
 
 .container {
-    padding: 0 15px;
-    max-width: 1300px;
-    margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  padding: 24px 110px;
+  background: #0d0d0d;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-lift {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 130px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 48px;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.btn {
+  padding: 20px 48px;
+  border-radius: 12px;
+  text-decoration: none;
+  background: #ffd2a4;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1c1d28;
 }
