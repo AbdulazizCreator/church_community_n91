@@ -56,6 +56,8 @@ header {
   color: #1c1d28;
 }
 
+/* --------- navbar --------- */
+
 #church {
   background-image: url("../images/home-back.jpg");
   background-position: center;
@@ -93,4 +95,55 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #ffffff;
+}
+
+/* --------- main ----------- */
+
+/* ----------- section first --------------- */
+
+.relevant-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #161722;
+  padding-top: 128px;
+}
+
+.relevant-text {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  padding: 16px 0 64px;
+}
+
+.relevant-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.relevant-about {
+  width: 33%;
+  background: #fff5eb;
+  border-bottom: 10px solid #ffd2a4;
+}
+
+.relevant-about-img {
+  padding: 80px 0 28px 80px;
+}
+
+.relevant-about-text {
+  padding: 0 0 8px 80px;
+}
+
+.relevant-about-title {
+  padding: 0 80px 80px 80px;
 }
