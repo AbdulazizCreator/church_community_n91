@@ -1,14 +1,14 @@
 @import "global.css";
 
 .container {
-  padding: 0 15px;
+  padding: 0 15 px;
   max-width: 1300px;
   margin: 0 auto;
 }
 
 header {
   width: 100%;
-  padding: 24px 110px;
+  padding: 24px 0px;
   background: #0d0d0d;
 }
 
@@ -54,4 +54,43 @@ header {
   text-align: center;
   text-transform: uppercase;
   color: #1c1d28;
+}
+
+#church {
+  background-image: url("../images/home-back.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.church-title {
+  padding-top: 128px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.church-text {
+  padding: 16px 0 56px;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 82px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+  max-width: 600px;
+}
+
+.church-btn {
+  color: white;
+}
+
+.church-writing {
+  padding: 64px 0 128px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
 }
