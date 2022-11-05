@@ -179,3 +179,197 @@ padding-bottom: 64px;
 .member-list {
   display: flex;
 }
+
+@media screen and ( max-width: 1000px){
+  /* ABOUT US  */
+#aboutus {
+  height: 419px;
+  background-image: url("../images/aboutus.png");
+  background-size: contain;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.text-aboutus p {
+  padding-top: 160px;
+  padding-bottom: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #161722;
+}
+.text-aboutus h2 {
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #161722;
+}
+.text-aboutus {
+  padding-left: 110px;
+}
+
+/* ABOUT CHURCH  */
+
+.church-title p {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #161722;
+  padding-bottom: 16px;
+}
+.church-title h2 {
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  padding-bottom: 16px;
+}
+ul {
+  list-style-type: none;
+}
+
+.church-title {
+  padding-top: 200px;
+}
+
+.church-img {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+ padding-left: 250px;
+ }
+
+.church-img,
+li {
+    margin: 5px 5px;
+
+  }
+
+.imgg {
+  margin-top: 75px;
+  padding-left: 50px;
+}
+.imgg1 {
+  margin-top: 75px;
+  padding-left: 50px;
+}
+.subtitle {
+  display: flex;
+}
+
+.subtitle p {
+  flex: 50vh;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #161722;
+  padding-bottom: 16px;
+}
+
+.subtitle h4 {
+  flex: 50vh;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+  padding-bottom: 16px;
+}
+.subtitle1 {
+  margin-left: 100px;
+}
+.subtitle2 {
+  margin-left: 100px;
+}
+
+/* BENEFITS SECTION  */
+
+.benefits-title {
+  text-align: center;
+  padding-top: 128px;
+  padding-bottom: 64px;
+  font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+/* or 133% */
+
+text-align: center;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+
+/* Black */
+
+color: #161722;
+}
+
+.benefits-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
+
+.benefits-list  li {
+  display: flex;
+  flex-direction: column;
+ align-content: flex-end;
+}
+h4 {
+  font-weight: 700;
+font-size: 32px;
+line-height: 44px;
+/* identical to box height, or 138% */
+
+letter-spacing: -0.01em;
+text-transform: uppercase;
+
+/* Black */
+
+color: #161722;
+  margin-top: 100px;
+  padding-bottom: 16px;
+}
+
+.benefits-list p {
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #161722;
+opacity: 0.78;
+}
+
+.member-title p {
+  text-align: center;
+  font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-transform: uppercase;
+color: #161722;
+padding-bottom: 16px;
+padding-top: 16px;
+}
+.member-title h2 {
+  font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #161722;
+padding-bottom: 64px;
+}
+
+.member-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 150px;
+}
+
+
+  
+}
