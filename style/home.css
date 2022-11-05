@@ -157,7 +157,7 @@ header {
   text-align: center;
   color: #161722;
   opacity: 0.78;
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -171,9 +171,6 @@ header {
 
 .love-card-img {
   width: 33%;
-}
-.love-card-img img {
-  width: 100%;
 }
 
 .love-card-img-1 {
@@ -223,4 +220,172 @@ header {
   font-size: 14px;
   line-height: 16px;
   color: #161722;
+}
+
+/* ---------- watch section ----------- */
+
+#watch {
+  background-color: #f5f2f0;
+}
+
+.watch-text {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.watch-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-bottom: 127px;
+}
+
+.watch-img {
+  width: 25%;
+  background-image: url("../images/fashion.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.watch-img-left {
+  padding: 208px 32px 16px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.watch-img-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  opacity: 0.78;
+  padding: 0 32px 32px;
+}
+
+.watch-img-1 {
+  width: 25%;
+  background-image: url("../images/holding.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.watch-img-2 {
+  width: 25%;
+  background-image: url("../images/man-peopl.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.watch-img-3 {
+  width: 25%;
+  background-image: url("../images/woman.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.watch-img-text {
+  padding: 296px 32px 32px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* ------------------ sermons section  -------------------  */
+
+.sermons-card {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 208px;
+}
+
+.sermons-left {
+  width: 42%;
+  background-color: #fff5eb;
+  padding: 33px 0 31px 89px;
+  /* height: 512px; */
+}
+
+.sermons-event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sermons-text {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #a54e2b;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+}
+
+.sermons-title {
+  padding-right: 33px;
+}
+
+.sermons-clock {
+  padding-top: 32px;
+}
+
+.clock {
+  display: flex;
+  /* justify-content: center; */
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.clock-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  margin-bottom: 32px;
+}
+
+.sermons-h2 {
+  /* padding: 16px; */
+}
+
+.sermons-ph {
+  padding-top: 16px;
+}
+
+.sermons-btn {
+  margin-top: 32px;
+}
+
+.sermons-right {
+  width: 58%;
+}
+
+.sermons-right-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
