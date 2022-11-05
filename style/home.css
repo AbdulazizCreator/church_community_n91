@@ -188,11 +188,39 @@ header {
 .love-btn {
   margin-bottom: 48px;
 }
-/* ---------- width section ------------ */
 
 .love-card-img-2 {
   width: 33%;
 }
-.love-card-img-2 img {
-  /* width: 100%; */
+
+/* ---------- width section ------------ */
+
+.width-title {
+  padding: 16px 0;
+}
+
+.width-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #161722;
+  opacity: 0.78;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.width-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 0 136px;
+}
+
+.width-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #161722;
 }
