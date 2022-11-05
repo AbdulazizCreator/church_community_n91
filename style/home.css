@@ -367,10 +367,6 @@ header {
   margin-bottom: 32px;
 }
 
-.sermons-h2 {
-  /* padding: 16px; */
-}
-
 .sermons-ph {
   padding-top: 16px;
 }
@@ -389,3 +385,86 @@ header {
   background-repeat: no-repeat;
   width: 100%;
 }
+
+#world {
+  background-image: url(../images/facade.png);
+  width: 100%;
+  height: 500px;
+}
+
+.world-card {
+  width: 100%;
+}
+
+.watch-card img {
+  width: 100%;
+}
+
+.share-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 128px;
+}
+
+.share_bottom_item {
+  background-color: #fff;
+  width: 23%;
+  margin-top: 25px;
+  background-color: #fff5eb;
+}
+
+.share_bottom_item_short_title {
+  padding-left: 32px;
+  padding-top: 48px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: linear-gradient(109.61deg, #a54e2b -53.83%, #dc9853 62.61%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.share_bottom_item_title {
+  padding-left: 32px;
+  padding-top: 16px;
+  max-width: 218px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #161722;
+}
+.share_bottom_item_text {
+  padding-left: 32px;
+  max-width: 238px;
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  opacity: 0.78;
+}
+.share_bottom_item_person {
+  padding-left: 32px;
+  padding-top: 48px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #161722;
+}
+.share_bottom_item_date {
+  padding-left: 32px;
+  padding-top: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #161722;
+  padding-bottom: 32px;
+}
+
+/* ----- footer -------- */

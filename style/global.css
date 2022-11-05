@@ -80,3 +80,145 @@ header {
 }
 
 /* footer */
+#footer {
+  background-color: #161722;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0;
+}
+
+.footer-left {
+  width: 25%;
+  display: inline-block;
+}
+
+.footer-copyright {
+  margin: 32px 0;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-link {
+  color: darksalmon;
+  padding: 8px 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-center {
+  display: flex;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
+}
+
+.footer-center-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.78;
+  text-decoration: none;
+}
+
+.footer-item {
+  list-style: none;
+}
+
+.footer-center-bottom-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: -94px;
+}
+
+.center-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.center-item {
+  list-style: none;
+}
+
+.center-link {
+  text-decoration: none;
+}
+
+.fa-brands {
+  color: #ffd2a4;
+  padding: 10px 10px;
+}
+
+.footer-right {
+  width: 30%;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.footer-right-text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.footer-right-input {
+  padding: 10px 10px;
+  padding-right: 180px;
+  margin-top: 32px;
+  outline: none;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+.button {
+  position: absolute;
+  margin-left: 260px;
+  margin-top: 32px;
+  padding: 11px;
+}
